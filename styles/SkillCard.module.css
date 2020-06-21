@@ -1,0 +1,11 @@
+.skillCard {
+    background: #ff4655;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.3rem 1rem;
+    margin-right: 0.7rem;
+    margin-bottom: 0.7rem;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    box-shadow: 2px 2px 2px -1px #ccc;
+}

@@ -1,0 +1,86 @@
+.project {
+    background: whitesmoke;
+    width: 100%;
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 2px -1px #ccc;
+    position: relative;;
+}
+
+@media screen and (min-width: 600px){
+    .project {
+        flex-basis: 49%; 
+    }
+} 
+
+
+.name {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 0.12rem;
+    margin-bottom: 0.5rem;
+    line-height: 3rem;
+}
+
+.bio {
+    font-size: 1.2rem;
+}
+
+.stackTitle {
+    margin-top: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.stackList {
+    line-height: 1.8rem;
+    margin-bottom: 1.2rem;
+}
+
+.stack {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+}
+
+
+.details {
+    padding: 1rem 1.5rem;
+    color: black;
+}
+
+.desc {
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.stack {
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+.linkbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    border: 1px solid #ff4655;
+    border-radius: 0.5rem;
+    padding: 0.3rem 1rem;
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 1.4rem;
+    box-shadow: 2px 2px 2px -1px #ccc;
+}
+
+.link:hover {
+    background: #ff4655;
+    color: white;
+}

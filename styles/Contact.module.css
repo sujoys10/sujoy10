@@ -1,0 +1,15 @@
+.contact {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.icon {
+    height: 2.4rem;
+    width: 2.4rem;
+    margin-right: 1.2rem;
+}
+
+.icon img {
+    height: 100%;
+    width: 100%;
+}

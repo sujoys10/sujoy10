@@ -1,0 +1,76 @@
+.intro {
+    background: url("https://res.cloudinary.com/sujoys10/image/upload/v1592652671/sujoy_bg_xjftlr.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro__name {
+    font-weight: 700;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    animation-name: moveInLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+
+.intro__bio {
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
+    letter-spacing: 0.2rem;
+    animation-name: moveInRight;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+
+@media screen and (min-width: '600px'){
+    .intro__name {
+        font-size: 4rem;
+        letter-spacing: 1.5rem;
+    }
+
+    .intro__bio {
+        font-size: 2rem;
+        letter-spacing: 0.8rem;
+    }
+}
+
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80% {
+        transform: translateX(10);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    80% {
+        transform: translateX(-10);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,21 @@
+.about {
+    margin: 3rem 1rem;
+    padding: 0 1rem;
+}
+
+.bio {
+    margin-bottom: 2rem;
+}
+
+.email {
+    margin-bottom: 1rem;
+}
+
+.email a {
+    text-decoration: none;
+    color: black;
+}
+
+.email a:hover {
+    color: cornflowerblue;
+}

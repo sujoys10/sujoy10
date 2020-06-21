@@ -1,0 +1,9 @@
+.skills {
+    padding: 2rem;
+}
+
+.skillList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

@@ -1,0 +1,19 @@
+.section {
+    padding: 2rem 0;
+    max-width: 1024px;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.section hr {
+    margin: 1rem auto;
+    width: 90%;
+    opacity: 0.2;
+}
