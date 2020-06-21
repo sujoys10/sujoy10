@@ -1,7 +1,7 @@
 .intro {
     background: url("https://res.cloudinary.com/sujoys10/image/upload/v1592652671/sujoy_bg_xjftlr.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: left;
     width: 100vw;
     height: 100vh;
     display: flex;
