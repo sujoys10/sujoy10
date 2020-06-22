@@ -12,7 +12,7 @@ export default function Contact(){
             </div>
             <div className={styles.icon}>
                 <a href="https://www.linkedin.com/in/sujoy-saha-768465b5/" target="_blank">
-                    <img src="LinkedIn.png" alt="linkedin" />                
+                    <img src="Linkedin.png" alt="linkedin" />                
                 </a>
             </div>
             <div className={styles.icon}>
