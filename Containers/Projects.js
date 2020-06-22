@@ -1,5 +1,6 @@
 import React from 'react';
 import useSWR from 'swr';
+import Loader from '../components/Loader';
 import ProjectCard from '../components/ProjectCard';
 import styles from '../styles/Projects.module.css';
 
@@ -11,7 +12,7 @@ export default function Projects(){
     const { data, error } = useSWR('/api/projects/stage', fetcher);
 
     if (error) return <div>Failed to load</div>
-    if (!data) return <div>Loading...</div>
+    if (!data) return <Loader />
     return (
         <div className={styles.projects}>
             { data.projects.length !== 0 &&

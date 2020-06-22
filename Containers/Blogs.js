@@ -1,5 +1,6 @@
 import React from 'react';
 import useSWR from 'swr';
+import Loader from '../components/Loader';
 import BlogCard from '../components/BlogCard';
 import styles from '../styles/Blogs.module.css';
 
@@ -11,7 +12,7 @@ export default function Blogs(){
     const { data, error } = useSWR('/api/blogs/stage', fetcher);
 
     if (error) return <div>Failed to load</div>
-    if (!data) return <div>Loading...</div>
+    if (!data) return <Loader />
     return (
         <div className={styles.blogs}>
             { data.blogs.length !== 0 &&

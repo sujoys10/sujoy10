@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import useSWR from 'swr';
+import Loader from '../components/Loader';
 import SkillCard from '../components/SkillCard';
 import styles from '../styles/Skills.module.css';
 
@@ -18,7 +19,7 @@ export default function Skills(){
     },[data])
 
     if (error) return <div>Failed to load</div>
-    if (!data) return <div>Loading...</div>
+    if (!data) return <Loader />
     return (
         <div className={styles.skills}>
             <div className={styles.skillList}>
