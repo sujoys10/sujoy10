@@ -11,9 +11,9 @@ export default function About(){
                     Hello World, I am Sujoy Saha, a builder who love to play with React and in love with Messi's left leg. 
 
                     <br></br>
-                    I have a obsession with ideas and problems. So I code. My aim is to make
+                    I have a obsession with problems. So I code. My goal is to make
                     consumer products to make people life 1% more effeicient. <br></br>
-                    If also play for that 1%, feel free to connect with me.
+                    If you also play for that 1%, feel free to connect with me.
                 </p>
             </div>
             <div className={styles.email}>
