@@ -7,7 +7,7 @@ export default function Contact(){
         <div className={styles.contact}>
             <div className={styles.icon}>
                 <a href="https://github.com/sujoys10" target="_blank">
-                    <img src="Github.png" alt="github" />
+                    <img src="GitHub.png" alt="github" />
                 </a>
             </div>
             <div className={styles.icon}>
