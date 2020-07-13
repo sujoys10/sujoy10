@@ -6,12 +6,6 @@
     position: relative;;
 }
 
-@media screen and (min-width: 600px){
-    .project {
-        flex-basis: 49%; 
-    }
-} 
-
 
 .name {
     text-transform: uppercase;
@@ -56,6 +50,7 @@
 .desc {
     font-size: 1.4rem;
     line-height: 2rem;
+    list-style-position: inside;
 }
 
 .stack {

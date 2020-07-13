@@ -4,15 +4,22 @@ import styles from '../styles/ProjectCard.module.css';
 
 export default function ProjectCard({ project: { name, desc, stack, url, github } }){
     const [stackList, setStackList] = useState([]);
+    const [description, setDescription] = useState([]);
 
     useEffect(() => {
         setStackList(stack.split(","));
+        setDescription(desc.split(","));
     },[])
     return (
         <div className={styles.project}>
             <div className={styles.details}>
                 <p className={styles.name}>{name}</p>
-                <p className={styles.desc}>{desc}</p>
+                <ul>
+                    { description.length !== 0 && (
+                        description.map((point,i) => 
+                            <li key={i} className={styles.desc}>{point}</li>)
+                    )}
+                </ul>
                 <p className={styles.stackTitle}>stack</p>
                 <div className={styles.stackList}>
                     { stackList.length !== 0  &&
