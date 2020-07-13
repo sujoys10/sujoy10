@@ -13,9 +13,9 @@
 
 .email a {
     text-decoration: none;
-    color: black;
+    color: cornflowerblue;
 }
 
 .email a:hover {
-    color: cornflowerblue;
+    color: black;
 }
