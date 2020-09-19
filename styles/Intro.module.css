@@ -9,6 +9,12 @@
     justify-content: center;
 }
 
+@media screen and (max-width: 600px) {
+    .intro {
+        background: url("https://res.cloudinary.com/sujoys10/image/upload/v1592652695/sujoy_dp_coogjp.jpg");
+    }
+}
+
 .intro__name {
     font-weight: 700;
     color: whitesmoke;
